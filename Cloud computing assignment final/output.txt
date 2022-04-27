@@ -1,0 +1,805 @@
+
+Thread 1:
+ 	The number of flights from every airport:
+ 
+ 		Airport(DEN) : 3
+ 		Airport(JFK) : 2
+ 		Airport(ORD) : 8
+ 		Airport(KUL) : 1
+ 		Airport(MAD) : 2
+ 		Airport(LHR) : 5
+ 		Airport(IAH) : 1
+ 		Airport(CGK) : 3
+ 		Airport(CDG) : 2
+ 		Airport(LAS) : 1
+ 		Airport(CAN) : 4
+ 		Airport(AMS) : 1
+ 		Airport(PVG) : 3
+ 		Airport(MUC) : 1
+ 		Airport(ATL) : 2
+ 		Airport(HND) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 1		From airport(DEN) to airport(FRA)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 2		From airport(JFK) to airport(FRA)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 4		From airport(ORD) to airport(MIA)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 1		From airport(KUL) to airport(PEK)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 2		From airport(MAD) to airport(FRA)
+ 		Flight_ID: HUR0974O
+ 		Number of passengers: 1		From airport(DEN) to airport(PVG)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 5		From airport(LHR) to airport(PEK)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 4		From airport(ORD) to airport(DXB)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 1		From airport(IAH) to airport(BKK)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 3		From airport(CGK) to airport(DXB)
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 2		From airport(CDG) to airport(LAS)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 1		From airport(LAS) to airport(SIN)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 1		From airport(AMS) to airport(DEN)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 3		From airport(PVG) to airport(FCO)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 1		From airport(MUC) to airport(MAD)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 2		From airport(ATL) to airport(LHR)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 1		From airport(HND) to airport(CAN)
+ 		Flight_ID: EWH6301Y
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+Thread 2:
+ 	The number of flights from every airport:
+ 
+ 		Airport(CGK) : 1
+ 		Airport(MUC) : 2
+ 		Airport(AMS) : 2
+ 		Airport(DFW) : 1
+ 		Airport(JFK) : 4
+ 		Airport(DEN) : 2
+ 		Airport(KUL) : 3
+ 		Airport(MIA) : 2
+ 		Airport(PVG) : 3
+ 		Airport(LHR) : 2
+ 		Airport(IAH) : 4
+ 		Airport(FCO) : 3
+ 		Airport(MAD) : 2
+ 		Airport(ATL) : 2
+ 		Airport(BKK) : 1
+ 		Airport(LAS) : 2
+ 		Airport(CLT) : 1
+ 		Airport(CAN) : 1
+ 		Airport(PEK) : 1
+ 		Airport(ORD) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 1		From airport(CGK) to airport(SFO)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 2		From airport(MUC) to airport(MAD)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 2		From airport(AMS) to airport(DEN)
+ 		Flight_ID: WPW9201U
+ 		Number of passengers: 1		From airport(DFW) to airport(PEK)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 4		From airport(JFK) to airport(FRA)
+ 		Flight_ID: HUR0974O
+ 		Number of passengers: 1		From airport(DEN) to airport(PVG)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 1		From airport(KUL) to airport(PEK)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 2		From airport(MIA) to airport(SFO)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 3		From airport(PVG) to airport(FCO)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 2		From airport(LHR) to airport(PEK)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 2		From airport(IAH) to airport(AMS)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 3		From airport(FCO) to airport(LAS)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 2		From airport(MAD) to airport(FRA)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 1		From airport(ATL) to airport(LHR)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 1		From airport(BKK) to airport(MIA)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 2		From airport(LAS) to airport(SIN)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 2		From airport(KUL) to airport(LAS)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 1		From airport(ATL) to airport(HKG)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 1		From airport(CLT) to airport(DEN)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 1		From airport(DEN) to airport(FRA)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 1		From airport(CAN) to airport(DFW)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 2		From airport(IAH) to airport(BKK)
+ 		Flight_ID: XIL3623J
+ 		Number of passengers: 1		From airport(PEK) to airport(LAX)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 1		From airport(ORD) to airport(MIA)
+Thread 3:
+ 	The number of flights from every airport:
+ 
+ 		Airport(CDG) : 2
+ 		Airport(CAN) : 4
+ 		Airport(LHR) : 2
+ 		Airport(ORD) : 5
+ 		Airport(DEN) : 6
+ 		Airport(IAH) : 3
+ 		Airport(MUC) : 1
+ 		Airport(MIA) : 3
+ 		Airport(CLT) : 1
+ 		Airport(LAS) : 2
+ 		Airport(FCO) : 2
+ 		Airport(KUL) : 2
+ 		Airport(DFW) : 2
+ 		Airport(ATL) : 3
+ 		Airport(MAD) : 1
+ 		Airport(AMS) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 2		From airport(CDG) to airport(LAS)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 2		From airport(LHR) to airport(PEK)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 1		From airport(ORD) to airport(DXB)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 5		From airport(DEN) to airport(FRA)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 2		From airport(IAH) to airport(AMS)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 1		From airport(MUC) to airport(MAD)
+ 		Flight_ID: EWH6301Y
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 4		From airport(ORD) to airport(MIA)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 3		From airport(MIA) to airport(SFO)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 1		From airport(CLT) to airport(DEN)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 2		From airport(LAS) to airport(SIN)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 2		From airport(FCO) to airport(LAS)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 1		From airport(KUL) to airport(LAS)
+ 		Flight_ID: WPW9201U
+ 		Number of passengers: 2		From airport(DFW) to airport(PEK)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 2		From airport(ATL) to airport(HKG)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 1		From airport(ATL) to airport(LHR)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 1		From airport(IAH) to airport(BKK)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 1		From airport(AMS) to airport(DEN)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 1		From airport(KUL) to airport(PEK)
+Thread 4:
+ 	The number of flights from every airport:
+ 
+ 		Airport(LAS) : 2
+ 		Airport(CDG) : 2
+ 		Airport(ORD) : 2
+ 		Airport(CLT) : 1
+ 		Airport(CGK) : 4
+ 		Airport(ATL) : 6
+ 		Airport(DEN) : 4
+ 		Airport(LHR) : 5
+ 		Airport(AMS) : 2
+ 		Airport(MAD) : 1
+ 		Airport(HND) : 2
+ 		Airport(IAH) : 2
+ 		Airport(PEK) : 2
+ 		Airport(KUL) : 2
+ 		Airport(CAN) : 2
+ 		Airport(JFK) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 2		From airport(LAS) to airport(SIN)
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 2		From airport(CDG) to airport(LAS)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 2		From airport(ORD) to airport(DXB)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 1		From airport(CLT) to airport(DEN)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 3		From airport(CGK) to airport(DXB)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 3		From airport(ATL) to airport(HKG)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 1		From airport(DEN) to airport(FRA)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 5		From airport(LHR) to airport(PEK)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 3		From airport(ATL) to airport(LHR)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 1		From airport(CGK) to airport(SFO)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 2		From airport(AMS) to airport(DEN)
+ 		Flight_ID: HUR0974O
+ 		Number of passengers: 3		From airport(DEN) to airport(PVG)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 2		From airport(HND) to airport(CAN)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 1		From airport(IAH) to airport(BKK)
+ 		Flight_ID: XIL3623J
+ 		Number of passengers: 2		From airport(PEK) to airport(LAX)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 1		From airport(KUL) to airport(LAS)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 1		From airport(IAH) to airport(AMS)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 1		From airport(JFK) to airport(FRA)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 1		From airport(KUL) to airport(PEK)
+Thread 5:
+ 	The number of flights from every airport:
+ 
+ 		Airport(ORD) : 3
+ 		Airport(KUL) : 5
+ 		Airport(CLT) : 2
+ 		Airport(PVG) : 3
+ 		Airport(DEN) : 5
+ 		Airport(CGK) : 1
+ 		Airport(LHR) : 3
+ 		Airport(FCO) : 2
+ 		Airport(ATL) : 1
+ 		Airport(CAN) : 3
+ 		Airport(IAH) : 5
+ 		Airport(MIA) : 1
+ 		Airport(LAS) : 2
+ 		Airport(JFK) : 1
+ 		Airport(DFW) : 1
+ 		Airport(MAD) : 1
+ 		Airport(BKK) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 1		From airport(ORD) to airport(DXB)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 2		From airport(KUL) to airport(LAS)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 2		From airport(CLT) to airport(DEN)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 2		From airport(ORD) to airport(MIA)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 3		From airport(PVG) to airport(FCO)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 3		From airport(DEN) to airport(FRA)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 1		From airport(CGK) to airport(SFO)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 3		From airport(LHR) to airport(PEK)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 2		From airport(FCO) to airport(LAS)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 1		From airport(ATL) to airport(HKG)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 3		From airport(CAN) to airport(DFW)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 4		From airport(IAH) to airport(BKK)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 3		From airport(KUL) to airport(PEK)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 1		From airport(MIA) to airport(SFO)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 2		From airport(LAS) to airport(SIN)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 1		From airport(JFK) to airport(FRA)
+ 		Flight_ID: HUR0974O
+ 		Number of passengers: 1		From airport(DEN) to airport(PVG)
+ 		Flight_ID: WPW9201U
+ 		Number of passengers: 1		From airport(DFW) to airport(PEK)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 1		From airport(IAH) to airport(AMS)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 1		From airport(BKK) to airport(MIA)
+Thread 6:
+ 	The number of flights from every airport:
+ 
+ 		Airport(KUL) : 4
+ 		Airport(IAH) : 3
+ 		Airport(CGK) : 5
+ 		Airport(DEN) : 4
+ 		Airport(CAN) : 2
+ 		Airport(JFK) : 3
+ 		Airport(PVG) : 1
+ 		Airport(MAD) : 1
+ 		Airport(FCO) : 2
+ 		Airport(BKK) : 2
+ 		Airport(LHR) : 1
+ 		Airport(HND) : 1
+ 		Airport(CDG) : 1
+ 		Airport(ATL) : 3
+ 		Airport(LAS) : 1
+ 		Airport(PEK) : 2
+ 		Airport(MUC) : 2
+ 		Airport(CLT) : 2
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 2		From airport(KUL) to airport(PEK)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 3		From airport(IAH) to airport(BKK)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 3		From airport(CGK) to airport(DXB)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 2		From airport(DEN) to airport(PEK)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 3		From airport(JFK) to airport(FRA)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 1		From airport(PVG) to airport(FCO)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 2		From airport(FCO) to airport(LAS)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 2		From airport(BKK) to airport(MIA)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 1		From airport(LHR) to airport(PEK)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 1		From airport(HND) to airport(CAN)
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 1		From airport(CDG) to airport(LAS)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 2		From airport(CGK) to airport(SFO)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 2		From airport(ATL) to airport(HKG)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 2		From airport(DEN) to airport(FRA)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 1		From airport(LAS) to airport(SIN)
+ 		Flight_ID: XIL3623J
+ 		Number of passengers: 2		From airport(PEK) to airport(LAX)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 2		From airport(MUC) to airport(MAD)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 2		From airport(KUL) to airport(LAS)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 2		From airport(CLT) to airport(DEN)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 1		From airport(ATL) to airport(LHR)
+Thread 7:
+ 	The number of flights from every airport:
+ 
+ 		Airport(CDG) : 4
+ 		Airport(LHR) : 1
+ 		Airport(ORD) : 2
+ 		Airport(BKK) : 3
+ 		Airport(PEK) : 2
+ 		Airport(DEN) : 7
+ 		Airport(HND) : 2
+ 		Airport(CGK) : 1
+ 		Airport(MAD) : 1
+ 		Airport(JFK) : 2
+ 		Airport(AMS) : 1
+ 		Airport(PVG) : 3
+ 		Airport(CAN) : 2
+ 		Airport(IAH) : 2
+ 		Airport(DFW) : 1
+ 		Airport(MUC) : 1
+ 		Airport(CLT) : 1
+ 		Airport(ATL) : 3
+ 		Airport(KUL) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 4		From airport(CDG) to airport(LAS)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 1		From airport(LHR) to airport(PEK)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 2		From airport(ORD) to airport(MIA)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 3		From airport(BKK) to airport(MIA)
+ 		Flight_ID: XIL3623J
+ 		Number of passengers: 2		From airport(PEK) to airport(LAX)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 2		From airport(DEN) to airport(FRA)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 2		From airport(HND) to airport(CAN)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 1		From airport(CGK) to airport(DXB)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 2		From airport(JFK) to airport(FRA)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 1		From airport(AMS) to airport(DEN)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 4		From airport(DEN) to airport(PEK)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 3		From airport(PVG) to airport(FCO)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 1		From airport(IAH) to airport(BKK)
+ 		Flight_ID: WPW9201U
+ 		Number of passengers: 1		From airport(DFW) to airport(PEK)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 1		From airport(MUC) to airport(MAD)
+ 		Flight_ID: HUR0974O
+ 		Number of passengers: 1		From airport(DEN) to airport(PVG)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 1		From airport(CLT) to airport(DEN)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 3		From airport(ATL) to airport(HKG)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 1		From airport(KUL) to airport(LAS)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 1		From airport(IAH) to airport(AMS)
+Thread 8:
+ 	The number of flights from every airport:
+ 
+ 		Airport(BKK) : 3
+ 		Airport(CDG) : 3
+ 		Airport(CAN) : 1
+ 		Airport(PVG) : 1
+ 		Airport(CLT) : 3
+ 		Airport(ORD) : 3
+ 		Airport(MIA) : 2
+ 		Airport(KUL) : 1
+ 		Airport(DEN) : 2
+ 		Airport(AMS) : 3
+ 		Airport(ATL) : 6
+ 		Airport(CGK) : 3
+ 		Airport(LAS) : 2
+ 		Airport(JFK) : 3
+ 		Airport(IAH) : 1
+ 		Airport(FCO) : 1
+ 		Airport(MUC) : 1
+ 		Airport(HND) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 3		From airport(BKK) to airport(MIA)
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 3		From airport(CDG) to airport(LAS)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 1		From airport(CAN) to airport(DFW)
+ 		Flight_ID: JVY9791G
+ 		Number of passengers: 1		From airport(PVG) to airport(FCO)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 3		From airport(CLT) to airport(DEN)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 2		From airport(ORD) to airport(MIA)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 2		From airport(MIA) to airport(SFO)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 1		From airport(KUL) to airport(LAS)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 3		From airport(AMS) to airport(DEN)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 2		From airport(ATL) to airport(LHR)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 4		From airport(ATL) to airport(HKG)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 2		From airport(CGK) to airport(SFO)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 2		From airport(LAS) to airport(SIN)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 3		From airport(JFK) to airport(FRA)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 1		From airport(DEN) to airport(FRA)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 1		From airport(CGK) to airport(DXB)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 1		From airport(IAH) to airport(AMS)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 1		From airport(FCO) to airport(LAS)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 1		From airport(MUC) to airport(MAD)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 1		From airport(HND) to airport(CAN)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 1		From airport(ORD) to airport(DXB)
+Thread 9:
+ 	The number of flights from every airport:
+ 
+ 		Airport(ORD) : 3
+ 		Airport(CAN) : 2
+ 		Airport(KUL) : 5
+ 		Airport(CGK) : 3
+ 		Airport(JFK) : 3
+ 		Airport(CLT) : 3
+ 		Airport(IAH) : 6
+ 		Airport(MAD) : 1
+ 		Airport(ATL) : 2
+ 		Airport(DFW) : 2
+ 		Airport(BKK) : 1
+ 		Airport(PEK) : 1
+ 		Airport(AMS) : 1
+ 		Airport(DEN) : 3
+ 		Airport(HND) : 1
+ 		Airport(FCO) : 1
+ 		Airport(MIA) : 2
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 1		From airport(ORD) to airport(MIA)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 2		From airport(CAN) to airport(DFW)
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 3		From airport(KUL) to airport(PEK)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 1		From airport(CGK) to airport(SFO)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 3		From airport(JFK) to airport(FRA)
+ 		Flight_ID: WSK1289Z
+ 		Number of passengers: 3		From airport(CLT) to airport(DEN)
+ 		Flight_ID: KJR6646J
+ 		Number of passengers: 6		From airport(IAH) to airport(BKK)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 2		From airport(KUL) to airport(LAS)
+ 		Flight_ID: MOO1786A
+ 		Number of passengers: 1		From airport(MAD) to airport(FRA)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 1		From airport(ATL) to airport(HKG)
+ 		Flight_ID: WPW9201U
+ 		Number of passengers: 2		From airport(DFW) to airport(PEK)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 1		From airport(BKK) to airport(MIA)
+ 		Flight_ID: XIL3623J
+ 		Number of passengers: 1		From airport(PEK) to airport(LAX)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 1		From airport(AMS) to airport(DEN)
+ 		Flight_ID: TMV7633W
+ 		Number of passengers: 2		From airport(CGK) to airport(DXB)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 1		From airport(ATL) to airport(LHR)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 2		From airport(DEN) to airport(FRA)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 1		From airport(HND) to airport(CAN)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 2		From airport(ORD) to airport(DXB)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 1		From airport(FCO) to airport(LAS)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 2		From airport(MIA) to airport(SFO)
+Thread 10:
+ 	The number of flights from every airport:
+ 
+ 		Airport(KUL) : 3
+ 		Airport(CGK) : 3
+ 		Airport(CAN) : 5
+ 		Airport(MUC) : 4
+ 		Airport(ATL) : 4
+ 		Airport(FCO) : 1
+ 		Airport(CDG) : 3
+ 		Airport(ORD) : 2
+ 		Airport(HND) : 3
+ 		Airport(LHR) : 2
+ 		Airport(MIA) : 1
+ 		Airport(IAH) : 2
+ 		Airport(AMS) : 1
+ 		Airport(DEN) : 2
+ 		Airport(BKK) : 1
+ 		Airport(JFK) : 2
+ 		Airport(LAS) : 1
+ 	List of flights based on flightID:
+ 
+ 		Flight_ID: MBA8071P
+ 		Number of passengers: 1		From airport(KUL) to airport(PEK)
+ 		Flight_ID: DAU2617A
+ 		Number of passengers: 3		From airport(CGK) to airport(SFO)
+ 		Flight_ID: ULZ8130D
+ 		Number of passengers: 5		From airport(CAN) to airport(DFW)
+ 		Flight_ID: RUM0422W
+ 		Number of passengers: 4		From airport(MUC) to airport(MAD)
+ 		Flight_ID: XOY7948U
+ 		Number of passengers: 2		From airport(ATL) to airport(LHR)
+ 		Flight_ID: VDC9164W
+ 		Number of passengers: 1		From airport(FCO) to airport(LAS)
+ 		Flight_ID: QHU1140O
+ 		Number of passengers: 3		From airport(CDG) to airport(LAS)
+ 		Flight_ID: FYL5866L
+ 		Number of passengers: 2		From airport(ATL) to airport(HKG)
+ 		Flight_ID: SOH3431A
+ 		Number of passengers: 1		From airport(ORD) to airport(MIA)
+ 		Flight_ID: RPG3351U
+ 		Number of passengers: 3		From airport(HND) to airport(CAN)
+ 		Flight_ID: GMO5938W
+ 		Number of passengers: 2		From airport(LHR) to airport(PEK)
+ 		Flight_ID: DKZ3042O
+ 		Number of passengers: 1		From airport(MIA) to airport(SFO)
+ 		Flight_ID: HZT2506M
+ 		Number of passengers: 2		From airport(IAH) to airport(AMS)
+ 		Flight_ID: ATT7791R
+ 		Number of passengers: 1		From airport(AMS) to airport(DEN)
+ 		Flight_ID: PME8178S
+ 		Number of passengers: 1		From airport(DEN) to airport(PEK)
+ 		Flight_ID: YZO4444S
+ 		Number of passengers: 1		From airport(BKK) to airport(MIA)
+ 		Flight_ID: BER7172M
+ 		Number of passengers: 2		From airport(KUL) to airport(LAS)
+ 		Flight_ID: XXQ4064B
+ 		Number of passengers: 2		From airport(JFK) to airport(FRA)
+ 		Flight_ID: VYW5940P
+ 		Number of passengers: 1		From airport(LAS) to airport(SIN)
+ 		Flight_ID: VYU9214I
+ 		Number of passengers: 1		From airport(ORD) to airport(DXB)
+ 		Flight_ID: SQU6245R
+ 		Number of passengers: 1		From airport(DEN) to airport(FRA)
+ Total number of flights from every airport:
+ 	Airport(DEN) : 38
+ 	Airport(JFK) : 21
+ 	Airport(ORD) : 29
+ 	Airport(KUL) : 27
+ 	Airport(MAD) : 10
+ 	Airport(LHR) : 21
+ 	Airport(IAH) : 29
+ 	Airport(CGK) : 24
+ 	Airport(CDG) : 17
+ 	Airport(LAS) : 13
+ 	Airport(CAN) : 26
+ 	Airport(AMS) : 12
+ 	Airport(PVG) : 14
+ 	Airport(MUC) : 12
+ 	Airport(ATL) : 32
+ 	Airport(HND) : 11
+ 	Airport(DFW) : 7
+ 	Airport(MIA) : 11
+ 	Airport(FCO) : 12
+ 	Airport(BKK) : 12
+ 	Airport(CLT) : 14
+ 	Airport(PEK) : 8
+ Total list of flights based on flightID:
+ 
+ 	Flight_ID: SQU6245R
+ 	Number of passengers: 19
+ 	From airport(DEN) to airport(FRA)
+ 
+ 	Flight_ID: XXQ4064B
+ 	Number of passengers: 21
+ 	From airport(JFK) to airport(FRA)
+ 
+ 	Flight_ID: SOH3431A
+ 	Number of passengers: 17
+ 	From airport(ORD) to airport(MIA)
+ 
+ 	Flight_ID: PME8178S
+ 	Number of passengers: 12
+ 	From airport(DEN) to airport(PEK)
+ 
+ 	Flight_ID: MBA8071P
+ 	Number of passengers: 13
+ 	From airport(KUL) to airport(PEK)
+ 
+ 	Flight_ID: MOO1786A
+ 	Number of passengers: 10
+ 	From airport(MAD) to airport(FRA)
+ 
+ 	Flight_ID: HUR0974O
+ 	Number of passengers: 7
+ 	From airport(DEN) to airport(PVG)
+ 
+ 	Flight_ID: GMO5938W
+ 	Number of passengers: 21
+ 	From airport(LHR) to airport(PEK)
+ 
+ 	Flight_ID: VYU9214I
+ 	Number of passengers: 12
+ 	From airport(ORD) to airport(DXB)
+ 
+ 	Flight_ID: KJR6646J
+ 	Number of passengers: 19
+ 	From airport(IAH) to airport(BKK)
+ 
+ 	Flight_ID: TMV7633W
+ 	Number of passengers: 13
+ 	From airport(CGK) to airport(DXB)
+ 
+ 	Flight_ID: QHU1140O
+ 	Number of passengers: 17
+ 	From airport(CDG) to airport(LAS)
+ 
+ 	Flight_ID: VYW5940P
+ 	Number of passengers: 13
+ 	From airport(LAS) to airport(SIN)
+ 
+ 	Flight_ID: ULZ8130D
+ 	Number of passengers: 22
+ 	From airport(CAN) to airport(DFW)
+ 
+ 	Flight_ID: ATT7791R
+ 	Number of passengers: 12
+ 	From airport(AMS) to airport(DEN)
+ 
+ 	Flight_ID: JVY9791G
+ 	Number of passengers: 14
+ 	From airport(PVG) to airport(FCO)
+ 
+ 	Flight_ID: RUM0422W
+ 	Number of passengers: 12
+ 	From airport(MUC) to airport(MAD)
+ 
+ 	Flight_ID: XOY7948U
+ 	Number of passengers: 13
+ 	From airport(ATL) to airport(LHR)
+ 
+ 	Flight_ID: RPG3351U
+ 	Number of passengers: 11
+ 	From airport(HND) to airport(CAN)
+ 
+ 	Flight_ID: EWH6301Y
+ 	Number of passengers: 4
+ 	From airport(CAN) to airport(DFW)
+ 
+ 	Flight_ID: DAU2617A
+ 	Number of passengers: 11
+ 	From airport(CGK) to airport(SFO)
+ 
+ 	Flight_ID: WPW9201U
+ 	Number of passengers: 7
+ 	From airport(DFW) to airport(PEK)
+ 
+ 	Flight_ID: DKZ3042O
+ 	Number of passengers: 11
+ 	From airport(MIA) to airport(SFO)
+ 
+ 	Flight_ID: HZT2506M
+ 	Number of passengers: 10
+ 	From airport(IAH) to airport(AMS)
+ 
+ 	Flight_ID: VDC9164W
+ 	Number of passengers: 12
+ 	From airport(FCO) to airport(LAS)
+ 
+ 	Flight_ID: YZO4444S
+ 	Number of passengers: 12
+ 	From airport(BKK) to airport(MIA)
+ 
+ 	Flight_ID: BER7172M
+ 	Number of passengers: 14
+ 	From airport(KUL) to airport(LAS)
+ 
+ 	Flight_ID: FYL5866L
+ 	Number of passengers: 19
+ 	From airport(ATL) to airport(HKG)
+ 
+ 	Flight_ID: WSK1289Z
+ 	Number of passengers: 14
+ 	From airport(CLT) to airport(DEN)
+ 
+ 	Flight_ID: XIL3623J
+ 	Number of passengers: 8
+ 	From airport(PEK) to airport(LAX)
